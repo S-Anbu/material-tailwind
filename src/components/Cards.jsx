@@ -9,12 +9,12 @@ import {
    
   export function Cards() {
     return (
-      <Card className="mt-6 w-">
-        <CardHeader color="blue-gray" className="relative h-56">
+      <Card className=" bg-gray-100 mt-6 w-96 ">
+        <CardHeader color="blue-gray" className="mt-6 relative h-56">
           <img
             src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
             alt="card-image"
-            className=" object-center object-fill"
+            className="w-full h-full"
           />
         </CardHeader>
         <CardBody>
